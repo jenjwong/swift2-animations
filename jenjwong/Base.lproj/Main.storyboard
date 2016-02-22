@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="JenniferWong" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-sunny" id="w7J-SM-Dk0">
+                                <rect key="frame" x="-29" y="0.0" width="351" height="835"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-sunny-cloud-2" id="Ptl-Dv-gsb">
+                                <rect key="frame" x="171" y="0.0" width="158" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-sunny-cloud-3" id="90G-lc-cQA">
+                                <rect key="frame" x="206" y="312" width="74" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-sunny-cloud-4" id="9tV-Kz-0A1">
+                                <rect key="frame" x="16" y="334" width="115" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-sunny-cloud-1" id="Oqu-co-Y0s">
+                                <rect key="frame" x="-91" y="37" width="159" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aspiring Ios Dev" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9je-Wu-jVL">
+                                <rect key="frame" x="54" y="128" width="226" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="35"/>
+                                <color key="textColor" red="0.90588235289999997" green="0.90588235289999997" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bit-Al-8Lg">
+                                <rect key="frame" x="62" y="232" width="200" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.8747936782557848" green="0.96856626046036864" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="28"/>
+                                <color key="tintColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Fast Facts">
+                                    <color key="titleShadowColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="login" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Nda-D1-4on"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5SI-fE-cPi">
+                                <rect key="frame" x="211" y="504" width="78" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Learn More"/>
+                                <connections>
+                                    <segue destination="D9A-fL-WWK" kind="modal" id="dRh-sV-a9R"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jen Wong" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mEV-bG-x0j">
+                                <rect key="frame" x="49" y="103" width="226" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="35"/>
+                                <color key="textColor" red="0.90588235294117647" green="0.90588235294117647" blue="0.90588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="cloud1" destination="Oqu-co-Y0s" id="XJJ-cu-wjC"/>
+                        <outlet property="cloud2" destination="Ptl-Dv-gsb" id="CbK-v8-Qca"/>
+                        <outlet property="cloud3" destination="90G-lc-cQA" id="mb6-qT-jlW"/>
+                        <outlet property="cloud4" destination="9tV-Kz-0A1" id="uhL-VK-Ejw"/>
+                        <outlet property="heading" destination="mEV-bG-x0j" id="YzL-PZ-tWN"/>
+                        <outlet property="loginButton" destination="bit-Al-8Lg" id="AEA-fV-f77"/>
+                        <outlet property="subheading" destination="9je-Wu-jVL" id="myb-QP-BDm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137" y="351"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="azE-9W-WoU">
+            <objects>
+                <viewController id="D9A-fL-WWK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jlV-Iq-9y8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="him-OQ-TfT">
+                                <rect key="frame" x="86" y="523" width="219" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back to my beautiful annimation"/>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="modal" id="ZCx-je-2Qw"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="rn7-Gp-RIE">
+                                <rect key="frame" x="7" y="272" width="305" height="243"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Hi my name is Jen Wong and I'm an aspiring IOS developer. 
+
+For the past seven years I've been working as a firefighter. I loved it, but last year, I decided that it was time for a change. I moved to San Francisco, and started working as a Technical Writer at Couchsurfing.   At my startup, I quickly I realized that the engineers were having the most fun, so I decided to learn to code. I just started at Hack Reactor an intensive full time coding bootcamp.   
+Mobile offers so many interesting opportunities for developers. Iphones are an incredibly powerful unobtrusive interface between the physical world and computers. There is such room for growth and innovation and the products we develope will be magical!  I'd love an oppotunity to go to WWC16.  
+
+
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pride" id="yEa-te-G0u">
+                                <rect key="frame" x="-184" y="-72" width="729" height="489"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ihh-1B-M5U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="511" y="353"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg-sunny" width="320" height="568"/>
+        <image name="bg-sunny-cloud-1" width="159" height="50"/>
+        <image name="bg-sunny-cloud-2" width="138" height="49"/>
+        <image name="bg-sunny-cloud-3" width="74" height="35"/>
+        <image name="bg-sunny-cloud-4" width="115" height="50"/>
+        <image name="pride" width="960" height="720"/>
+    </resources>
+</document>
